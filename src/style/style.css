@@ -562,19 +562,26 @@ html,
   --tw-contain-style:  ;
 }
 
+.mx-\[54px\] {
+  margin-left: 54px;
+  margin-right: 54px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.mx-\[\] {
-  margin-left: ;
-  margin-right: ;
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
-.mx-\[54px\] {
-  margin-left: 54px;
-  margin-right: 54px;
+.mb-\[80px\] {
+  margin-bottom: 80px;
+}
+
+.mb-\[80\] {
+  margin-bottom: 80;
 }
 
 .flex {
@@ -585,8 +592,12 @@ html,
   height: 44px;
 }
 
-.w-full {
-  width: 100%;
+.h-\[56px\] {
+  height: 56px;
+}
+
+.h-\[680px\] {
+  height: 680px;
 }
 
 .w-\[14px\] {
@@ -597,16 +608,49 @@ html,
   width: 15px;
 }
 
+.w-auto {
+  width: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-\[1638px\] {
+  max-width: 1638px;
+}
+
 .max-w-\[966px\] {
   max-width: 966px;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-x-\[45px\] {
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-\[44px\] {
+  border-radius: 44px;
 }
 
 .bg-background {
@@ -614,19 +658,49 @@ html,
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 
-.font-roboto {
-  font-family: Roboto, sans-serif;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.pt-\[90px\] {
+  padding-top: 90px;
 }
 
-.font-bold {
-  font-weight: 700;
+.pb-\[150px\] {
+  padding-bottom: 150px;
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-xxs {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.text-heading {
+  font-size: 80px;
+  line-height: 84px;
+}
+
+.text-subheading {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-red-apple {
+  --tw-text-opacity: 1;
+  color: rgb(182 68 0 / var(--tw-text-opacity));
+}
+
+.text-black-apple {
+  --tw-text-opacity: 1;
+  color: rgb(29 29 31 / var(--tw-text-opacity));
 }
