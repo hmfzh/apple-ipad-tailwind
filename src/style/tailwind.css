@@ -7,4 +7,24 @@
   body {
     @apply font-roboto text-base font-normal;
   }
+
+  .swiper {
+    @apply w-full h-[800px];
+  }
+
+  .swiper-slide {
+    @apply w-[405px] flex;
+  }
+
+  .btn-next {
+    @apply h-9 w-9 rounded-full justify-center items-center bg-[#E2E2E6];
+  }
+  .btn-prev {
+    @apply h-9 w-9 rounded-full justify-center items-center bg-[#E2E2E6];
+  }
+
+  .btn-next.swiper-button-disabled,
+  .btn-prev.swiper-button-disabled {
+    @apply opacity-40 cursor-not-allowed;
+  }
 }
